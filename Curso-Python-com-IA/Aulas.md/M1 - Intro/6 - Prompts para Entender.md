@@ -39,4 +39,4 @@ Deixe mais completo ainda
 
 ## Outros prompts:
 
-https://github.com/MrIagoUFV/EnciclopedIA/Prompts-Gerais
+https://github.com/MrIagoUFV/EnciclopedIA/tree/main/Prompts-Gerais
