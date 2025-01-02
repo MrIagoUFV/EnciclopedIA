@@ -24,6 +24,15 @@ Aqui você encontrará uma coleção de prompts úteis para programação em por
 
 Em breve, você encontrará aqui o curso de Python com prompts em Português.
 
+## 📁 [Regras](./REGRAS)
+
+Regras que Uso para guiar as IA's
+
+## 📁 [Modelos](./Modelos)
+
+Modelos para acelerar configurações iniciais.
+
+
 ## 🚀 Como Usar
 
 1. Navegue pelos diretórios do projeto
