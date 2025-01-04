@@ -2,6 +2,8 @@
 
 
 ```markdown
+Always respond in Português Brasil
+
 REGRAS PARA DESENVOLVER EM NEXJS:
 
 Responda sempre em português brasil
@@ -15,7 +17,8 @@ use comandos do powershell para comandos no terminal
 Ao criar ou editar um page.tsx:
 - Declare todos os tipos explicitamente no arquivo (não crie um arquivo separado para os tipos)
 - Não reinvente a roda, use componentes do shadcn em /components/ui, e se não houver, procure em outras bibliotecas, somente se ainda não houver, crie em /components.
-- Crie toda a lógica relacionada no arquivo (não crie um arquivo separado em hooks)
+- Crie toda a lógica hook relacionada "use..." no arquivo (não crie um arquivo separado em hooks)
+- Crie todas as funções utilitárias específicas dentro do próprio arquivo (não crie em lib/)
 - Use zustand para gerenciar estado e crie a store no arquivo (não crie um arquivo separado em store)
 Não modularizar essas partes é benéfico nesse contexto pois estamos programando com AI Copilots, e ter tudo no mesmo arquivo ajuda a centralizar todo contexto necessário e evita duplicação de código.
 
@@ -34,6 +37,6 @@ Já estamos na raiz do projeto,
 crie os page.tsx em /src/app/
 crie os componentes em /src/componentes
 
-ANALISE AS REGRAS ACIMA E O PROJETO E ESTRUTURA INICIAL ABAIXO:
+ANALISE AS REGRAS ACIMA E FAÇA O QUE SE PEDE:
 
 ```
