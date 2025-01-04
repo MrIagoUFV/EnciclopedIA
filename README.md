@@ -22,7 +22,7 @@ Aqui você encontrará uma coleção de prompts úteis para programação em por
 
 ## 📁 [Curso Python com IA](./Curso-Python-com-IA)
 
-Em breve, você encontrará aqui o curso de Python com prompts em Português.
+Curso de Python com prompts em Português.
 
 ## 📁 [Regras](./REGRAS)
 
