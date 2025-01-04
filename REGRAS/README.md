@@ -1,4 +1,4 @@
-# MODELO GERAL - NEXTJS 14
+# REGRA - NEXTJS 14
 
 
 ```markdown
@@ -19,8 +19,10 @@ Ao criar ou editar um page.tsx:
 - Não reinvente a roda, use componentes do shadcn em /components/ui, e se não houver, procure em outras bibliotecas, somente se ainda não houver, crie em /components.
 - Crie toda a lógica hook relacionada "use..." no arquivo (não crie um arquivo separado em hooks)
 - Crie todas as funções utilitárias específicas dentro do próprio arquivo (não crie em lib/)
+- Crie todos os Server Actions específicos dentro do próprio arquivo (não crie em actions/)
 - Use zustand para gerenciar estado e crie a store no arquivo (não crie um arquivo separado em store)
-Não modularizar essas partes é benéfico nesse contexto pois estamos programando com AI Copilots, e ter tudo no mesmo arquivo ajuda a centralizar todo contexto necessário e evita duplicação de código.
+
+Não modularizar essas partes (tipos, hooks, funções utilitárias, server actions e stores) é benéfico nesse contexto pois estamos programando com AI Copilots, e ter tudo no mesmo arquivo ajuda a centralizar todo contexto necessário e evita duplicação de código.
 
 - DRY o estilo usando todas as classes e estilos importando do @globals.css e tailwind.config.ts
 
@@ -38,5 +40,6 @@ crie os page.tsx em /src/app/
 crie os componentes em /src/componentes
 
 ANALISE AS REGRAS ACIMA E FAÇA O QUE SE PEDE:
+
 
 ```
