@@ -28,10 +28,9 @@ Curso de Python com prompts em Português.
 
 Regras que Uso para guiar as IA's
 
-## 📁 [Modelos](./Modelos)
+## 📁 [GPTree](./GPTree)
 
-Modelos para acelerar configurações iniciais.
-
+GPTree é uma ferramenta CLI que ajuda a fornecer contexto de projetos de código para LLMs (Large Language Models).
 
 ## 🚀 Como Usar
 

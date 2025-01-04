@@ -1,5 +1,6 @@
-# Modelos
- Moldes para acelerar as configurações iniciais
+# GPTree
+
+GPTree é uma ferramenta CLI que ajuda a fornecer contexto de projetos de código para LLMs (Large Language Models).
 
 ### CONFIGURAÇÕES INICIAIS
 
@@ -33,8 +34,6 @@
 [gptree](https://github.com/travisvn/gptree)
 
 ![GPTree Demo](https://github.com/travisvn/gptree/raw/main/demo.gif)
-
-O GPTree é uma ferramenta CLI (Command Line Interface) que ajuda a fornecer contexto de projetos de código para LLMs (Large Language Models).
 
 #### O que ele faz
 
