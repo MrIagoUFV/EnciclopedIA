@@ -7,6 +7,8 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
 
 ## 🪙 PROMPTS DE OURO
 
+
+    
 - Engenharia reversa
     
     ```markdown
@@ -358,4 +360,98 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
        - Qual foi provavelmente a primeira versão?
        - Como ela evoluiu até esta versão?
        - Quais refatorações aconteceram no caminho?
+    ```
+
+    ---
+
+  ## Utils
+
+  
+- Utils
+    
+    ```markdown
+    melhore o layout da pagina pois para mobile está não tão agradavel o feeling (melhore usando princípios de UX e neurociência, tornando-o mais atraente, fácil e persuasivo)
+    ```
+
+- Utils
+    
+    ```markdown
+    melhore usando princípios de UX e neurociência, tornando-o mais atraente, fácil e persuasivo.
+    ```
+
+- Utils
+    
+    ```markdown
+    melhorar o texto usando princípios de UX writing e neuromarketing, tornando-o mais atraente e fácil de ler:
+    ```
+
+- Utils
+    
+    ```markdown
+    deixe mais legivel seguindo boas praticas de ux e neurociencia, pois o texto está raw plain
+    ```
+
+
+- Utils
+    
+    ```markdown
+    Crie um MobileNav.tsx com:
+    - Barra superior fixa com logo à esquerda e botões de busca e menu à direita
+    - Ao clicar no botão de busca, animar a entrada de uma barra de busca deslizando da direita, escondendo o conteúdo anterior para a esquerda
+    - Ao fechar a busca, animar a saída da barra deslizando para direita, revelando o conteúdo anterior
+    - Barra inferior fixa com botões de Home, Library e Premium (se usuário premium)
+    - Quando a busca estiver aberta, esconder a barra inferior deslizando para baixo
+    - Usar shadcn Button e Input
+    - Usar Tailwind para animações e estilos
+    - Seguir o tema dark com cores em #121212 e #242424
+    - Otimizar para mobile first
+    - Manter o código DRY usando constantes para classes comuns
+    ```
+
+- Utils
+    
+    ```markdown
+    agora complete a mobilenav baseada na desktop, porem otimizada nas boas praticas de mobile nav    
+    ```
+
+
+- Utils
+    
+    ```markdown
+    agora crie um banco de dados fake para ser usado como mockup, use json para salvar e ler o dados de forma a deixar na melhor forma para posteriormente ser convertido para funcional com sql.
+    
+    faça isso na pasta /mockdb
+    
+    defina o schema inicial em schema.ts
+    
+    defina os dados iniciais como se está logado, email e senha etc
+    ```
+
+- Utils
+    
+    ```markdown
+    
+    arrume isso! mas antes, estude o código e identifique o que pode ser @Web 
+    ```
+
+- Utils
+    
+    ```markdown
+    
+    arrume isso! mas antes, estude o código e identifique o que pode ser @Web 
+    ```
+
+- Utils
+    
+    ```markdown
+    
+    antes de criar, leia a doc em @Flet para ver se tem como fazer exatamente isso. Se não crie uma solução mais próxima possível e me fale seu plano para eu confirmar antes de começar
+    ```
+- Utils
+    
+    ```markdown
+    
+    Confira antes, quais arquivos serão modificados, e em cada um, quais techos devem permanecer imutáveis para manter a integridade do código
+
+    Confira na doc do @Flet as sintaxes corretas e boas práticas também.
     ```
