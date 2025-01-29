@@ -455,3 +455,13 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
 
     Confira na doc do @Flet as sintaxes corretas e boas práticas também.
     ```
+
+
+    - Utils
+    
+    ```markdown
+    
+    agora melhore as cores e componentes icones bordas espaçamentos etc, para ficar um aspecto mais expensive e premium e profissional
+    
+    melhore tambem a aparcecia do titulo e subtitulo para tb ficar profissional com efeito etc
+    ```
