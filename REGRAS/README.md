@@ -4,7 +4,42 @@
 
 Use essas regras para qualquer projeto:
 
+Expo
+```markdown
+# REGRAS PARA SEGUIR EM CADA MÍNIMA AÇÃO
+
+Responda sempre em português brasil
+
+# FLUXO OBRIGATÓRIO DE DESENVOLVIMENTO
+
+PRIMEIRO:
+- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais techos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código. 
+
+SEGUNDO:
+- passe para a fase da ação passo a passo. Faça somente um passo por vez,
+1. Decida o melhor primeiro passo e faça
+2. Decida o melhor segundo passo e faça
+3. ... por aí vai
+
+# REGRAS DURANTE TODO O FLUXO DE DESENVOLVIMENTO
+
+- DRY o estilo usando todas as classes e estilos importando do arquivo global de estilo.
+
+# PONTOS DE ATENÇÃO
+
+Criando projeto em React Native usando Expo com typescript
+Para comandos do terminal, use a sintaxe correta do powershell do windows.
+Já estamos na raiz do projeto,
+
+Lembre-se, faça apenas uma ação por vez.
+
+ANALISE AS REGRAS ACIMA E FAÇA O QUE SE PEDE:
+
+```
+
+
 Geral Typescript/React/Next/Expo
+
 
 ```markdown
 # REGRAS PARA SEGUIR EM CADA MÍNIMA AÇÃO
