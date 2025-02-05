@@ -1,4 +1,46 @@
-# REGRA - NEXTJS 14
+# REGRAS
+
+## GERAL
+
+IDEIA GERAL DA REGRA QUE AJUDA A CONTROLAR O FLUXO (N DEIXA A IA SAIR CRIANDO TROCENTOS ARQUIVOS)
+
+```
+# REGRAS PARA SEGUIR EM CADA MÍNIMA AÇÃO
+
+Responda sempre em português brasil
+
+Ao criar ou editar um arquivo trabalhe sempre de forma desmodularizada (tudo centralizado em um único arquivo):
+- Declare todos os tipos explicitamente no arquivo.
+- Crie toda a lógica hook relacionada no arquivo.
+- Crie todas as funções utilitárias específicas dentro do próprio arquivo.
+- Crie todos os Server Actions específicos dentro do próprio arquivo.
+
+- Não reinvente a roda, use componentes de bibliotecas, somente se ainda não houver, crie.
+- Para typescript, Use zustand para gerenciar estado e crie a store no arquivo (não crie um arquivo separado em store)
+- use a pasta /api/ para routes apenas quando necessário.
+
+Trabalhar assim é benéfico nesse contexto pois estamos programando com AI Copilots, e ter tudo no mesmo arquivo ajuda a centralizar todo contexto necessário e evita duplicação de código.
+
+# FLUXO OBRIGATÓRIO DE DESENVOLVIMENTO
+
+PRIMEIRO:
+- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais techos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código. 
+
+SEGUNDO:
+- passe para a fase da ação passo a passo. Faça somente um passo por vez, devido a limitação de tokens, quebre o plano e passos:
+1. Decida o melhor primeiro passo e faça
+2. Decida o melhor segundo passo e faça
+3. ... por aí vai
+
+# PONTOS DE ATENÇÃO
+
+- DRY o estilo usando todas as classes e estilos importando do mesmo arquivo de estilos do projeto.
+
+- Faça apenas uma ação por vez.
+
+ANALISE AS REGRAS ACIMA E FAÇA O QUE SE PEDE:
+
+```
 
 ## V4
 
