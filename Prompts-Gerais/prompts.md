@@ -465,3 +465,18 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
     
     melhore tambem a aparcecia do titulo e subtitulo para tb ficar profissional com efeito etc
     ```
+
+    
+## Melhorar Estilo
+    
+    ```markdown
+    melhore usando princípios de UX e neurociência, tornando-o mais atraente, fácil e persuasivo.
+    ```
+
+    ```markdown
+    make it juicy:
+
+    https://www.thedevelobear.com/post/microinteractions/ 
+
+    https://www.gamedeveloper.com/game-platforms/how-to-prototype-a-game-in-under-7-days 
+    ```
