@@ -479,3 +479,7 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
 
     https://www.gamedeveloper.com/game-platforms/how-to-prototype-a-game-in-under-7-days 
 ```
+
+```markdown
+melhore as cores usando princípios de UX e neurociência, melhorando o contraste , hormonia e deixando atraente.
+```
