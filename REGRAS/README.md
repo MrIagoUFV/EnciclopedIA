@@ -24,13 +24,15 @@ Trabalhar assim é benéfico nesse contexto pois estamos programando com AI Copi
 # FLUXO OBRIGATÓRIO DE DESENVOLVIMENTO
 
 PRIMEIRO:
-- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais techos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código. 
+- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código.
 
 SEGUNDO:
-- passe para a fase da ação passo a passo. Faça somente um passo por vez, devido a limitação de tokens, quebre o plano e passos:
-1. Decida o melhor primeiro passo e faça
-2. Decida o melhor segundo passo e faça
-3. ... por aí vai
+- Após o estudo, passe para a fase da analise dos passos. Pois pode ser uma ação grande que seja melhor quebrar em menores passos para manter a integridade do código, e garantir que faça o todo bem feito, danda a atenção necessário a cada passo. Analise e exponha seu plano.
+
+TERCEIRO:
+1. Decida o melhor primeiro passo e peça permissão. Espere o ok do usuário, e faça.
+2. Decida o melhor segundo passo, analise o que deve permanecer imutável. Espere o ok do usuário, e faça.
+3. ... por aí vai, obrigatoriamente parando e pedindo permissão para continuar para o próximo, explicitando qual será. Espere a permissão do usuário.
 
 # PONTOS DE ATENÇÃO
 
@@ -64,13 +66,15 @@ Nunca modularizar essas partes: (tipos, hooks, funções utilitárias, server ac
 # FLUXO OBRIGATÓRIO DE DESENVOLVIMENTO
 
 PRIMEIRO:
-- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais techos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código. 
+- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código.
 
 SEGUNDO:
-- passe para a fase da ação passo a passo. Faça somente um passo por vez,
-1. Decida o melhor primeiro passo e faça
-2. Decida o melhor segundo passo e faça
-3. ... por aí vai
+- Após o estudo, passe para a fase da analise dos passos. Pois pode ser uma ação grande que seja melhor quebrar em menores passos para manter a integridade do código, e garantir que faça o todo bem feito, danda a atenção necessário a cada passo. Analise e exponha seu plano.
+
+TERCEIRO:
+1. Decida o melhor primeiro passo e peça permissão. Espere o ok do usuário, e faça.
+2. Decida o melhor segundo passo, analise o que deve permanecer imutável. Espere o ok do usuário, e faça.
+3. ... por aí vai, obrigatoriamente parando e pedindo permissão para continuar para o próximo, explicitando qual será. Espere a permissão do usuário.
 
 # REGRAS DURANTE TODO O FLUXO DE DESENVOLVIMENTO
 
@@ -115,19 +119,24 @@ ANALISE AS REGRAS ACIMA E FAÇA O QUE SE PEDE:
 ## EXPO:
 
 ```
-# REGRAS PARA SEGUIR EM CADA MÍNIMA AÇÃO
+# EXPO - REGRAS PARA SEGUIR EM CADA MÍNIMA AÇÃO
 
 Responda sempre em português brasil
+
+Codifique em inglês, variaveis names etc, pois tem gringos no projeto.
+// Comments in english too.
 
 # FLUXO OBRIGATÓRIO DE DESENVOLVIMENTO
 
 PRIMEIRO:
-- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código. Envie isso e espere o ok do usuário.
+- Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código.
 
 SEGUNDO:
-- Após o estudo, passe para a fase da ação passo a passo. Faça somente um passo por vez, e sempre peça permissão para o próximo:
-1. Decida o melhor primeiro passo e peça permissão.
-2. Decida o melhor segundo passo e peça permissão.
+- Após o estudo, passe para a fase da analise dos passos. Pois pode ser uma ação grande que seja melhor quebrar em menores passos para manter a integridade do código, e garantir que faça o todo bem feito, danda a atenção necessário a cada passo. Analise e exponha seu plano.
+
+TERCEIRO:
+1. Decida o melhor primeiro passo e peça permissão. Espere o ok do usuário, e faça.
+2. Decida o melhor segundo passo, analise o que deve permanecer imutável. Espere o ok do usuário, e faça.
 3. ... por aí vai, obrigatoriamente parando e pedindo permissão para continuar para o próximo, explicitando qual será. Espere a permissão do usuário.
 
 # REGRAS DURANTE TODO O FLUXO DE DESENVOLVIMENTO
