@@ -1,5 +1,200 @@
 # REGRAS
 
+> Adapte os detalhes para as especificidades do seu projeto!
+
+# JSON
+
+## REGRA QUE USO PARA EXPO (REACT NATIVE)
+
+```json
+{
+    "general": {
+        "response_language": "Português (Brasil)",
+        "code_language": "English",
+        "comment_language": "English"
+    },
+    "development_flow": {
+        "steps": [
+            {
+                "phase": "PRIMEIRO",
+                "description": "Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código."
+            },
+            {
+                "phase": "SEGUNDO",
+                "description": "Após o estudo, passe para a fase de análise dos passos. Se a ação for grande, divida em passos menores para manter a integridade do código, garantindo que cada etapa receba a atenção necessária. Analise e exponha seu plano."
+            },
+            {
+                "phase": "TERCEIRO",
+                "steps": [
+                    "Decida o melhor primeiro passo, e faça. ",
+                    "Decida o melhor segundo passo, analise o que deve permanecer imutável e faça. ",
+                    "Continue, obrigatoriamente analisando o que deve permanecer imutável e fazendo um passo por vez."
+                ]
+            }
+        ]
+    },
+    "development_rules": [
+        "Sempre use tailwind (nativewind v4) para estilo",
+        "Sempre aplique o princípio DRY e siga o estilo, cores e fontes definidos em ./global.css",
+        "Sempre use zustand para gerenciar o estado local e @tanstack/react-query para operações no servidor",
+        "Sempre mantenha a compatibilidade com expo-router utilizando a pasta app/",
+        "Sempre defina as cores do tema como variáveis CSS no global.css e use-as via classes tailwind",
+        "Para gradientes no React Native, sempre use expo-linear-gradient com cores definidas no global.css",
+        "Nunca use códigos de cor diretamente nos componentes, sempre use as variáveis semânticas do tema",
+        "Carregue apenas as fontes necessárias em cada página usando useFonts",
+        "Use nomes semânticos para cores (neutral-darkest, primary, etc.) em vez de nomes descritivos",
+        "Mantenha a consistência do sistema de cores com paletas neutral e primary",
+        "Defina tamanhos de fonte sem unidades px para compatibilidade com React Native",
+        "Sempre use o sistema de internacionalização para textos visíveis",
+        "Defina as traduções no escopo do arquivo onde serão usadas",
+        "Mantenha as chaves de tradução organizadas e semânticas",
+        "Garanta suporte completo para português e inglês em todas as strings"
+    ],
+    "project_guidelines": {
+        "project_type": "Projeto em React Native usando Expo com TypeScript",
+        "file_naming": "Todos os arquivos são 'index.tsx' criados dentro de pastas cujo nome reflete o intuito do componente/página. Ao importar, use apenas o nome da pasta, sem referenciar explicitamente o 'index'.",
+        "terminal_commands": "Use a sintaxe correta do PowerShell do Windows para comandos do terminal",
+        "one_action_at_a_time": "Execute apenas uma ação por vez e peça permissão antes de cada passo",
+        "immutable_analysis": "Sempre analise o que deve permanecer imutável para preservar a integridade do código",
+        "theme_management": {
+            "colors": {
+                "naming": "Use nomes semânticos (neutral-darkest, primary) em vez de descritivos (black, orange)",
+                "definition": "Defina todas as cores como variáveis CSS no global.css",
+                "usage": "Use apenas via classes tailwind que referenciam as variáveis",
+                "palettes": {
+                    "neutral": "darkest → lightest para escala de cinza",
+                    "primary": "cor principal e variante dark"
+                }
+            },
+            "gradients": {
+                "definition": "Defina cores e locations no global.css",
+                "implementation": "Use expo-linear-gradient com w-full h-full",
+                "container": "Sempre use overflow-hidden em containers de gradiente"
+            },
+            "typography": {
+                "scale": "H1-H6, Label, Body 1-5 com tamanhos sem px",
+                "weights": "Bold e Regular da fonte Istok",
+                "lineHeight": "Automático para melhor adaptação"
+            },
+            "internationalization": {
+                "structure": {
+                    "location": "Defina as traduções no próprio arquivo da página/componente",
+                    "namespacing": "Use o nome da página/componente como namespace",
+                    "organization": "Agrupe traduções por contexto semântico"
+                },
+                "implementation": {
+                    "hook": "Use o hook useLanguages com o namespace correto",
+                    "translations": "Adicione traduções via i18n.addResourceBundle",
+                    "languages": "Suporte obrigatório para pt-BR e en"
+                },
+                "best_practices": {
+                    "keys": "Use chaves descritivas e semânticas (ex: buttonLabel, pageTitle)",
+                    "variables": "Evite strings hardcoded, use sempre o sistema de tradução",
+                    "fallbacks": "Garanta que todas as chaves existam em todos os idiomas"
+                },
+                "components": {
+                    "text": "Use o hook t() para todos os textos visíveis",
+                    "buttons": "Inclua estados de loading/disabled nas traduções",
+                    "forms": "Traduza labels, placeholders e mensagens de erro"
+                }
+            }
+        }
+    },
+    "index_tsx_guidelines": {
+        "type_declaration": "Declare todos os tipos explicitamente no próprio arquivo (não criar um arquivo separado para os tipos)",
+        "use_existing_components": "Não reinvente a roda; utilize componentes e ícones de bibliotecas existentes. Se não existirem, crie-os em /components",
+        "logic_hooks": "Implemente toda a lógica de hooks (iniciada com 'use...') no mesmo arquivo, sem separar em arquivos de hooks",
+        "utility_functions": "Crie funções utilitárias específicas dentro do próprio arquivo, sem separá-las em lib/",
+        "server_actions": "Crie todos os Server Actions específicos dentro do próprio arquivo, sem movê-los para actions/",
+        "state_management": "Use zustand para gerenciar o estado e crie a store no próprio arquivo, sem separá-la",
+        "api_routes": "Utilize a pasta /api/ para rotas apenas quando necessário",
+        "centralization": "Nunca modularize tipos, hooks, funções utilitárias, server actions ou stores; centralize tudo no mesmo arquivo para facilitar a integração com AI Copilots",
+        "styling": {
+            "colors": "Use apenas classes tailwind que referenciam variáveis do tema",
+            "gradients": "Use LinearGradient com cores do global.css",
+            "fonts": "Use fontFamily via style prop com fontes carregadas no _layout.tsx"
+        }
+    },
+    "stack": {
+        "framework": "React Native with Expo",
+        "language": "TypeScript",
+        "styles": "Nativewind (Tailwind)",
+        "authentication": "Fast-Api-Users Auth (JWT → MongoDb com RLS)",
+        "database": "MongoDb na Digital Ocean (Cluster)",
+        "storage": "Spaces da Digital Ocean"
+    }
+}
+```
+
+## REGRA QUE USO PARA NEXTJS
+
+```json
+{
+    "general": {
+        "response_language": "Português (Brasil)"
+    },
+    "page_tsx_guidelines": {
+        "type_declaration": "Declare todos os tipos explicitamente no próprio arquivo (não crie um arquivo separado para os tipos)",
+        "component_usage": "Use componentes do shadcn em /components/ui; se não houver, procure em outras bibliotecas; se ainda não existir, crie em /components",
+        "hook_logic": "Crie toda a lógica dos hooks (prefixados com 'use...') no mesmo arquivo (não crie um arquivo separado em hooks)",
+        "utility_functions": "Crie todas as funções utilitárias específicas dentro do próprio arquivo (não crie em lib/)",
+        "server_actions": "Crie todos os Server Actions específicos dentro do próprio arquivo (não crie em actions/)",
+        "state_management": "Use zustand para gerenciar o estado e crie a store no próprio arquivo (não crie um arquivo separado em store)",
+        "api_routes": "Utilize a pasta /api/ para rotas apenas quando necessário",
+        "centralization": "Nunca modularize tipos, hooks, funções utilitárias, server actions e stores; centralizar tudo no mesmo arquivo ajuda a manter o contexto para AI Copilots. Nunca crie pasta hooks."
+    },
+    "development_flow": {
+        "steps": [
+            {
+                "phase": "PRIMEIRO",
+                "description": "Se for modificar arquivos, confira antes quais arquivos serão modificados, e para cada um, liste quais trechos, estilos e funcionalidades devem permanecer imutáveis para manter a integridade do código."
+            },
+            {
+                "phase": "SEGUNDO",
+                "description": "Após o estudo, passe para a fase de análise dos passos. Se a ação for grande, divida em passos menores para manter a integridade do código, garantindo que cada etapa receba a atenção necessária. Analise e exponha seu plano."
+            },
+            {
+                "phase": "TERCEIRO",
+                "steps": [
+                    "Decida o melhor primeiro passo, e faça. ",
+                    "Decida o melhor segundo passo, analise o que deve permanecer imutável e faça. ",
+                    "Continue, obrigatoriamente analisando o que deve permanecer imutável e fazendo um passo por vez."
+                ]
+            }
+        ]
+    },
+    "development_rules": [
+        "Utilize o princípio DRY para estilos, importando todas as classes e estilos de @globals.css e @tailwind.config.ts."
+    ],
+    "points_of_attention": {
+        "project_creation": "Projeto Next.js 14 criado na raiz (npx create-next-app@14 .)",
+        "zustand": "zustand já instalado (npm install zustand)",
+        "shadcn": "shadcn e seus componentes instalados em /components/ui (todos componentes já instalados em /components/ui, e o useToast instalado em /hooks/use-toast)",
+        "terminal_syntax": "Use a sintaxe correta do PowerShell do Windows para comandos do terminal",
+        "project_structure": {
+            "pages": "Crie os page.tsx em /src/app/",
+            "components": "Crie os componentes em /src/componentes",
+            "ui_components": "Nunca modifique os arquivos em /src/componentes/ui; utilize-os conforme fornecidos"
+        },
+        "action_guideline": "Execute apenas uma ação por vez"
+    },
+    "stack": {
+        "framework": "Next.js",
+        "language": "TypeScript",
+        "styles": "TailwindCSS",
+        "components": "Shadcn e lucide-react",
+        "authentication": "Firebase Auth (JWT → Supabase com RLS)",
+        "database": "Firebase Firestore",
+        "storage": "Não há",
+        "deploy": "Digital Ocean (CI/CD automático)"
+    }
+}
+```
+
+
+
+# MARKDOWN
+
 ## GERAL
 
 IDEIA GERAL DA REGRA QUE AJUDA A CONTROLAR O FLUXO (N DEIXA A IA SAIR CRIANDO TROCENTOS ARQUIVOS)
