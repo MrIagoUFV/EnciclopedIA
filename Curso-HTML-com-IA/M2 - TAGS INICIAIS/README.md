@@ -1,0 +1,11 @@
+- Títulos e subtítulos
+- Parágrafos
+- Formatação de texto:
+    - Negrito (strong vs b)
+    - Itálico
+    - Marcação de texto
+    - Menor (small)
+- Listas ordenadas e não ordenadas, nested lists misturando as duas e css para estilizar lista de links de redes sociais.
+- Listas com descrição
+- Comentários
+- F12

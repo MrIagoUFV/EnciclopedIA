@@ -39,7 +39,7 @@ GPTree é uma ferramenta CLI que ajuda a fornecer contexto de projetos de códig
 3. Siga as instruções em cada seção
 4. Use os prompts com sua IA preferida
 
-## 🤝 Contribuições
+## 🤝 Contribuições 🤝 
 
 Contribuições são muito bem-vindas! Sinta-se à vontade para:
 
