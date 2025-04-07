@@ -7,7 +7,19 @@ Prompts para usar no seu processo de desenvolvimento, para entender e documentar
 
 ## 🪙 PROMPTS DE OURO
 
+- Entender o racícionio para criar um código
+    
+    ```markdown
+    
+    explique o pseudocode completo dessa pagina, como eu recriaria esse arquivo atraves de um plano sem sintaxe. O plano deve seguir uma ordem realm de racicínio, ou seja, só importar e criar coisas quando surgir a demanda, pois não se programa de forma linear como uma impressora, um código é criado por um humano entre vai e vens. Demosntre no seu pseudocódigo todo esse raciocinio. Faça isso um racicínio por vez, apresente o raciocinio, o pseudocódigo final desse raciocionio e espere minha instrução para continuar para o proximo. Repita isso até que seja reconstruído o raciocínio para recriar exatamente o mesmo código.
 
+    ao final de cada raciocínio, aja como um professor usando o método feynman e explique tudo sobre o código, como se estivesse ensinando um iniciante mas ainda de forma completa servindo como uma documentação útil de cada detalhe da sintaxe para programadores mais avançados, explicando de forma detalhada cada coisa destacada (enfase no "detalhada" pois é para ser completo como uma documentação, com todos os usos e opções principais por exemplo)
+    ```
+ao final de cada passo ele pergunta se sim. Para manter o padrão ao inves de simples sim, responda:
+
+    ```markdown
+    sim e lembre-se de ao final, ajor como um professor usando o método feynman e explique tudo sobre o código, como se estivesse ensinando um iniciante mas ainda de forma completa servindo como uma documentação útil de cada detalhe da sintaxe para programadores mais avançados, explicando de forma detalhada cada coisa destacada (enfase no "detalhada" pois é para ser completo como uma documentação, com todos os usos e opções principais por exemplo)
+    ```
     
 - Engenharia reversa
     
